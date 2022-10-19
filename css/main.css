@@ -87,6 +87,262 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #2a87dd; /** light blue **/
+  /*color: #010b8b; /** royal blue **/
+  background-color: white; /* Added default background for more consistency between browsers */
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2a87dd; /** light blue **/
+  /*color: #010b8b; /** royal blue **/
+  text-decoration: none;
+}
+
+h1 {
+  color: #c58d01; /** dark shade of golden yellow **/
+  font-family: 'Roboto Slab', serif;
+  font-size: /*1.75rem*/ 3.75rem; /* 28px vs 60px */
+  line-height: 1.5;
+  width: 100%;
+  font-weight: bold;
+  padding: 200px 0 0 0;
+  text-align: center;
+}
+
+h2 {
+  color: #010b8b; /** royal blue **/
+  font-family: 'Roboto', sans-serif;
+  font-size: /*1.25rem*/ 3rem; /* 20px vs 48px */
+  line-height: 1.5;
+  width: 100%;
+  font-weight: normal;
+  /*padding: 0 200px 0 200px;*/
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.75rem; /* Or 28px */
+}
+
+h4 {
+  font-size: 1.25rem; /* Or 20px */
+}
+
+h5 {
+  font-size: 1.5rem; /* Or 24px */
+}
+
+.project-link,
+.language-wrapper p,
+.tool-wrapper p {
+  text-transform: uppercase;
+  font-size: 1.125rem; /* Or 18px */
+  color: #2a87dd; /** light blue **/
+  /*color: #010b8b; /** royal blue **/ /*Try royal blue text on white background, or white text on royal blue background*/
+}
+
+.about-info h4,
+.contact-title {
+  font-weight: normal;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
+p,
+li {
+  font-size: 1rem; /* Or 16px */
+  line-height: 1.5;
+}
+
+span {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Structural Style */
+header,
+#work,
+#skills,
+#about,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+.content-wrapper {
+  width: 85%;
+}
+
+#work p,
+#about p {
+  width: 100%;
+  text-align: left;
+}
+
+/* set the margins & paddings for each section - these are only a suggestion :) */
+/* setting all margins to zero removes all browser added default margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* then can set the margin & paddings for any element */
+header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+nav {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+#work {
+  padding-top: 60px;
+}
+
+#skills {
+  padding-bottom: 80px;
+}
+
+#about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer {
+  padding: 80px 0;
+}
+
+h2 {
+  margin-top: 60px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin: 0 0 40px 0;
+}
+
+.project-description {
+  margin: 0 0 30px 0;
+}
+
+.project-link {
+  margin: 40px 0 60px 0;
+}
+
+#skills {
+  padding-top: 80px;
+}
+
+figure {
+  margin: 20px 0 40px 0;
+}
+
+.skills-header {
+  margin-bottom: 20px;
+}
+
+.about-info h3 {
+  margin: 40px 0 40px 0;
+}
+
+.about-text {
+  margin: 0 0 30px 0;
+}
+
+#contact h3 {
+  margin-bottom: 60px;
+}
+
+.contact-info {
+  margin:  0 0 60px 0;
+}
+
+.contact-title {
+  margin: 0 0 40px 0;
+}
+
+/* -------------------- Base Header Styles -------------------- */
+header {
+  background: url('../img/hero-image.png') no-repeat;
+  background-position: center;
+  background-size: 1400px auto; /** width is 1400px, height is auto **/
+  height: 800px;
+}
+
+header nav ul li {
+  font-size: .75rem; /* Or 12px */
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav #contact-link {
+  background-color: #010b8b; /** royal blue **/
+  padding: 10px 10px;
+  border-radius: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  width: 100%;
+}
+
+header h2 {
+  width: 100%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +516,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
