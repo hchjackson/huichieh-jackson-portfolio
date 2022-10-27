@@ -118,22 +118,22 @@ a {
 h1 {
   color: #c58d01; /** dark shade of golden yellow **/
   font-family: 'Roboto Slab', serif;
-  font-size: /*1.75rem*/ 3.75rem; /* 28px vs 60px */
+  font-size: 1.75rem /*3.75rem*/; /* 28px vs 60px */
   line-height: 1.5;
   width: 100%;
   font-weight: bold;
-  padding: 150px 0 0px 0;
+  padding: 50px 0 0px 0;
   text-align: center;
 }
 
 h2 {
   color: #010b8b; /** royal blue **/
   font-family: 'Roboto', sans-serif;
-  font-size: /*1.25rem*/ 3rem; /* 20px vs 48px */
+  font-size: 1.25rem /*3rem*/; /* 20px vs 48px */
   line-height: 1.5;
   width: 100%;
   font-weight: normal;
-  /*padding: 0 100px 0 0px;*/
+  /* padding: 50px 0px 0 0px; */
   text-align: center;
 }
 
@@ -315,7 +315,7 @@ figure {
 header {
   background: url('../img/hero-image.png') center no-repeat #010b8b;
   background-size: cover; /*1400px auto; /** width is 1400px, height is auto **/
-  min-height: 800px;
+  min-height: 500px;
   padding-bottom: 75px;
   display: flex;
   justify-content: center;
@@ -341,12 +341,18 @@ nav ul {
   justify-content: space-between;
 }
 
+header .home-title {
+  margin-bottom: 100px;
+}
 header h1 {
   width: 100%;
+  margin-top: 40px;
 }
 
 header h2 {
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -632,6 +638,7 @@ footer p {
   header {
     padding-top: 60px;
     padding-bottom: 80px;
+    min-height: 600px;
   }
 
   nav {
@@ -714,20 +721,20 @@ footer p {
     flex-flow: row wrap;
   }
 
-  /* header nav { */
+  header nav {
     /* keep if using hamburger menu */
-    /* display: flex;
+    display: flex;
     justify-content: center;
     width: 100%;
     text-transform: uppercase;
-  } */
+  }
 
-  /* header nav ul { */
+  header nav ul {
     /* keep if using hamburger menu */
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     width: 80%;
-  } */
+  }
 
   .home-title {
     display: flex;
@@ -833,6 +840,200 @@ footer p {
 
 /* -------------------- Desktop Styles - Homepage -------------------- */
 
+@media only screen and (min-width:1200px) {
+
+  /* Desktop styles here*/
+  .content-wrapper {
+    max-width: 1450px;
+  }
+
+  /* font styles */
+  h1 {
+    font-size: 4rem; /* 64px */
+  }
+
+  h2 {
+    font-size: 3rem; /* 48px */
+  }
+
+  h3 {
+    font-size: 2.5rem; /* 40px */
+  }
+
+  h4 {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  h5 {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .about-info h3 {
+    font-size: 3.25rem; /* 52px */
+    text-align: left;
+  }
+
+  .about-info h4 {
+    font-size: 2.25rem; /* 36px */
+  }
+
+  p {
+    font-size: 1.125rem; /* 18px */
+  }
+
+  .project-link,
+  .language-wrapper p,
+  .tool-wrapper p {
+    font-size: 1rem; /* 16px */
+  }
+
+  /* element margins */
+  /* the list of element have 20px of bottom margin already */
+  header {
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+
+  nav {
+    margin-bottom: 80px;
+  }
+
+  #work {
+    padding-top: 80px;
+  }
+
+  #skills {
+    padding-bottom: 120px;
+  }
+
+  #about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  footer {
+    padding: 140px 0 140px 0;
+  }
+
+  h2 {
+    margin: 40px 0 0 0;
+  }
+
+  .portfolio-header {
+    margin: 0 0 60px 0;
+  }
+
+  .portfolio-description {
+    margin: 0 0 30px 0;
+  }
+
+  .project-link {
+    margin: 40px 0 80px 0;
+  }
+
+  #skills {
+    padding-top: 120px;
+  }
+
+  #skills .content-wrapper {
+    max-width: 900px;
+  }
+
+  .skills-header {
+    margin-bottom: 40px;
+  }
+
+  .about-info h3 {
+    margin: 0;
+  }
+
+  .about-info h4 {
+    margin: 20px 0;
+  }
+
+  .about-text {
+    margin: 0 0 20px 0;
+  }
+
+  .contact-info {
+    margin: 80px 0 80px 0;
+  }
+
+  .contact-title {
+    margin: 0 0 30px 0;
+  }
+
+  /* header */
+  header .content-wrapper {
+    justify-content: flex-end;
+  }
+
+  header nav {
+    justify-content: flex-end;
+    width: 45%;
+  }
+
+  nav ul li a {
+    padding: 10px 10px;
+  }
+
+  nav ul li a:hover,
+  nav #contact-link:hover {
+    background-color: #010b8b; /** royal blue **/
+    /* color: #c58d01; /** dark shade of golden yellow **/
+    color: #fecc50; /** golden yellow **/
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+
+  .home-title {
+    max-width: 95%;
+  }
+
+  .home-title h1 {
+    margin-top: 150px;
+  }
+
+  .home-title h2 {
+    max-width: 80%;
+  }
+
+  /* portfolio */
+  .portfolio-piece {
+    width: 30%;
+  }
+
+  /* skills */
+  .skill,
+  .tool {
+    width: 30%;
+  }
+
+  /* about */
+  .about-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #about figure {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .about-info {
+    width: 64%;
+  }
+
+  /* contact */
+  footer .content-wrapper {
+    max-width: 70%;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+}
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
