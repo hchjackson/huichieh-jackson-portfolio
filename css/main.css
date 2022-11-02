@@ -96,7 +96,8 @@ body {
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
   /*color: #c58d01; /** dark shade of golden yellow **/
-  color: #2a87dd; /** light blue **/
+  color: #0079ce;
+  /*color: #2a87dd; /** light blue **/
   /*color: #010b8b; /** royal blue **/
   background-color: white; /* Added default background for more consistency between browsers */
 }
@@ -109,10 +110,15 @@ ol {
 }
 
 a {
-  color: #2a87dd; /** light blue *
+  color: #fecc50; /** golden yellow **/
+  /*color: #2a87dd; /** light blue **
   color: #c58d01; /** dark shade of golden yellow **/
   /*color: #010b8b; /** royal blue **/
   text-decoration: none;
+  /* font-size: 1.25rem; /* 20px */
+  background-color: #010b8b; /** royal blue **/
+  padding: 10px 10px;
+  border-radius: 30px;
 }
 
 h1 {
@@ -128,6 +134,7 @@ h1 {
 
 h2 {
   color: #010b8b; /** royal blue **/
+  background-color: #FBFBFB;
   font-family: 'Roboto', sans-serif;
   font-size: 1.25rem /*3rem*/; /* 20px vs 48px */
   line-height: 1.5;
@@ -154,7 +161,8 @@ h5 {
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem; /* Or 18px */
-  color: #2a87dd; /** light blue **/
+  color: #0079ce;
+  /*color: #2a87dd; /** light blue **/
   /*color: #010b8b; /** royal blue **/ /*Try royal blue text on white background, or white text on royal blue background*/
 }
 
@@ -399,7 +407,8 @@ header h2 {
 }
 
 .project-link:hover {
-  background-color: #2a87dd; /** light blue **/
+  background-color: #0079ce;
+  /*background-color: #2a87dd; /** light blue **/
   color: #010b8b; /** royal blue **/
 }
 
@@ -414,7 +423,9 @@ header h2 {
 
 .language-wrapper p,
 .tool-wrapper p {
-  background-color: #2a87dd; /** light blue **/
+  background-color: #ffffff;
+  /*background-color: #0079ce;
+  /*background-color: #2a87dd; /** light blue **/
   color: #010b8b; /** royal blue **/
   border-radius: 30px/*30px*/;
   /* padding: .9375rem 0rem; /* 15px 0px */
@@ -441,7 +452,10 @@ header h2 {
 /* About */
 #about {
   width: 100%;
-  background-color: #2a87dd; /** light blue **/
+  background-color: #101b8b;
+  /*background-color: #010b8b; /** royal blue **/
+  /*background-color: #0079ce;
+  /*background-color: #2a87dd; /** light blue **/
 }
 
 #profile-image {
@@ -980,8 +994,9 @@ footer p {
   nav ul li a:hover,
   nav #contact-link:hover {
     background-color: #010b8b; /** royal blue **/
+    color: #ffffff;
     /* color: #c58d01; /** dark shade of golden yellow **/
-    color: #fecc50; /** golden yellow **/
+    /*color: #fecc50; /** golden yellow **/
     padding: 10px 10px;
     border-radius: 30px;
   }
