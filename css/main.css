@@ -95,10 +95,7 @@ html {
 body {
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
-  /*color: #c58d01; /** dark shade of golden yellow **/
-  color: #0079ce;
-  /*color: #2a87dd; /** light blue **/
-  /*color: #010b8b; /** royal blue **/
+  color: #0079ce; /** #0079ce (light blue #2), #2a87dd (light blue #1), #010b8b (royal blue), #c58d01 (dark shade of golden yellow) **/
   background-color: white; /* Added default background for more consistency between browsers */
 }
 
@@ -110,10 +107,7 @@ ol {
 }
 
 a {
-  color: #fecc50; /** golden yellow **/
-  /*color: #2a87dd; /** light blue **
-  color: #c58d01; /** dark shade of golden yellow **/
-  /*color: #010b8b; /** royal blue **/
+  color: #fecc50; /** #fecc50 (golden yellow), #c58d01 (dark shade of golden yellow), #0079ce (light blue #2), #2a87dd (light blue #1), #010b8b (royal blue) **/
   text-decoration: none;
   /* font-size: 1.25rem; /* 20px */
   background-color: #010b8b; /** royal blue **/
@@ -161,9 +155,7 @@ h5 {
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem; /* Or 18px */
-  color: #0079ce;
-  /*color: #2a87dd; /** light blue **/
-  /*color: #010b8b; /** royal blue **/ /*Try royal blue text on white background, or white text on royal blue background*/
+  color: #0079ce; /** #0079ce (light blue #2), #2a87dd (light blue #1), #010b8b (royal blue), #c58d01 (dark shade of golden yellow) **/
 }
 
 .about-info h4,
@@ -322,7 +314,7 @@ figure {
 /* -------------------- Base Header Styles -------------------- */
 header {
   background: url('../img/hero-image.png') center no-repeat #010b8b;
-  background-size: cover; /*1400px auto; /** width is 1400px, height is auto **/
+  background-size: cover; /** 1400px auto;  width is 1400px, height is auto **/
   min-height: 500px;
   padding-bottom: 75px;
   display: flex;
@@ -338,8 +330,7 @@ header nav ul li {
 }
 
 nav #contact-link {
-  /*background-color: #c58d01; /** dark shade of golden yellow **/
-  background-color: #010b8b; /** royal blue **/
+  background-color: #010b8b; /** #010b8b (royal blue), #c58d01 (darker shade of golden yellow) **/
   padding: 10px 10px;
   border-radius: 30px;
 }
@@ -400,20 +391,19 @@ header h2 {
 }
 
 .project-link {
-  background-color: #010b8b; /** royal blue **/
+  background-color: #010b8b; /** #010b8b (royal blue) **/
   padding: .75rem 3.75rem; /* 12px 60px */
   border-radius: 30px;
   color: #FFFFFF;
 }
 
 .project-link:hover {
-  background-color: #0079ce;
-  /*background-color: #2a87dd; /** light blue **/
-  color: #010b8b; /** royal blue **/
+  background-color: #0079ce; /** #0079ce (light blue #2), #2a87dd (light blue #1), #010b8b (royal blue), #c58d01 (dark shade of golden yellow) **/
+  color: #010b8b; /** #010b8b (royal blue), #0079ce (light blue #2), #2a87dd (light blue #1), #c58d01 (dark shade of golden yellow) **/
 }
 
 #skills {
-  background-color: #010b8b; /** royal blue **/
+  background-color: #010b8b; /** #010b8b (royal blue) **/
 }
 
 #skills h4 {
@@ -423,15 +413,11 @@ header h2 {
 
 .language-wrapper p,
 .tool-wrapper p {
-  background-color: #ffffff;
-  /*background-color: #0079ce;
-  /*background-color: #2a87dd; /** light blue **/
-  color: #010b8b; /** royal blue **/
-  border-radius: 30px/*30px*/;
-  /* padding: .9375rem 0rem; /* 15px 0px */
-  /* padding: .75rem 3.75rem; /* 12px 60px */
-  padding: /*.5rem 1rem*/15px 0px;
-  margin: /*.5rem*/20px 0;
+  background-color: #ffffff; /** #ffffff (white), #0079ce (light blue #2), #2a87dd (light blue #1), #010b8b (royal blue), #c58d01 (dark shade of golden yellow) **/
+  color: #010b8b; /** #010b8b (royal blue) **/
+  border-radius: 30px;
+  padding: 15px 0px; /* .5rem 1rem, .9375rem 0rem (15px 0px), .75rem 3.75rem (12px 60px) */
+  margin: 20px 0; /* .5rem 0 */
 }
 
 /* .language-wrapper,
@@ -452,10 +438,7 @@ header h2 {
 /* About */
 #about {
   width: 100%;
-  background-color: #101b8b;
-  /*background-color: #010b8b; /** royal blue **/
-  /*background-color: #0079ce;
-  /*background-color: #2a87dd; /** light blue **/
+  background-color: #101b8b; /** #101b8b (royal blue #2), #010b8b (royal blue), #0079ce (light blue #2), #2a87dd (light blue #1) **/
 }
 
 #profile-image {
@@ -470,7 +453,7 @@ header h2 {
 
 /* -------------------- Base Header Styles -------------------- */
 footer {
-  background-color: #010b8b; /** royal blue **/
+  background-color: #010b8b; /** #010b8b (royal blue) **/
 }
 
 footer .contact-wrapper {
@@ -513,8 +496,7 @@ footer .social-icons li {
 /* This will be useful if going to use fontawesome icons instead of the image files. Will need to add fontawesome code into html head section */
 footer .social-icons li i {
   font-size: 1.875rem; /* 30px */
-  /* color: #c58d01; /** dark shade of golden yellow **/
-  color: #fecc50; /** golden yellow **/
+  color: #fecc50; /** #fecc50 (golden yellow), #c58d01 (dark shade of golden yellow) **/
 }
 
 footer h3,
@@ -993,10 +975,8 @@ footer p {
 
   nav ul li a:hover,
   nav #contact-link:hover {
-    background-color: #010b8b; /** royal blue **/
-    color: #ffffff;
-    /* color: #c58d01; /** dark shade of golden yellow **/
-    /*color: #fecc50; /** golden yellow **/
+    background-color: #010b8b; /** #010b8b (royal blue) **/
+    color: #ffffff; /** #ffffff (white), #c58d01 (dark shade of golden yellow), #fecc50 (golden yellow) **/
     padding: 10px 10px;
     border-radius: 30px;
   }
