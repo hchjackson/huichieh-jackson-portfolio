@@ -106,7 +106,7 @@ ol {
   padding: 0;
 }
 
-a {
+nav a {
   color: #fecc50; /** #fecc50 (golden yellow), #c58d01 (dark shade of golden yellow), #0079ce (light blue #2), #2a87dd (light blue #1), #010b8b (royal blue) **/
   text-decoration: none;
   /* font-size: 1.25rem; /* 20px */
